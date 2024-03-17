@@ -791,6 +791,9 @@ require('lazy').setup({
         return '%2l:%-2v'
       end
 
+      -- Move lines and visual selections using <M-h> <M-j> <M-k> <M-l>
+      require('mini.move').setup {}
+
       -- ... and there is more!
       --  Check out: https://github.com/echasnovski/mini.nvim
     end,
